@@ -1,5 +1,12 @@
 package com.sanjaydalvi.spacestationlocator;
 
+/*
+ * Copyright (C) 2016 Sanjay Dalvi
+ *
+ * This software may be modified and distributed under the terms
+ * of the MIT license.  See the LICENSE file for details.
+ */
+
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -33,10 +40,6 @@ import org.json.JSONObject;
 import android.widget.Button;
 import android.view.View;
 import android.os.Handler;
-
-/**
- * Created by sanjaydalvi on 2/20/16.
- */
 
 public class MainActivity extends AppCompatActivity implements OnMapReadyCallback {
     LatLng currentLocation;

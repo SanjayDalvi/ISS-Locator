@@ -1,5 +1,12 @@
 package com.sanjaydalvi.spacestationlocator;
 
+/*
+ * Copyright (C) 2016 Sanjay Dalvi
+ *
+ * This software may be modified and distributed under the terms
+ * of the MIT license.  See the LICENSE file for details.
+ */
+
 import android.app.Application;
 import android.test.ApplicationTestCase;
 

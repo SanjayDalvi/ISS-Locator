@@ -1,5 +1,12 @@
 package com.sanjaydalvi.spacestationlocator;
 
+/*
+ * Copyright (C) 2016 Sanjay Dalvi
+ *
+ * This software may be modified and distributed under the terms
+ * of the MIT license.  See the LICENSE file for details.
+ */
+
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpUriRequest;
@@ -9,10 +16,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.util.Log;
-
-/**
- * Created by sanjaydalvi on 2/20/16.
- */
 
 public class LoadISSLocation extends AsyncTask<HttpUriRequest, Void, String>
     {
